@@ -1,5 +1,9 @@
 package principal;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import paquete.Clase01;
 
 public class Main {
@@ -15,6 +19,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 				
+		Date date1 = new Date();
 		
 		Clase01 clase = new Clase01();
 		Clase01 clase01 = new Clase01();
@@ -27,7 +32,12 @@ public class Main {
 		System.out.println("OBJ: "+clase.stPublico);
 		System.out.println("OBJ: "+clase01.stPublico);
 		System.out.println("OBJ: "+clase02.stPublico);
-		System.out.println("CLASS: "+Clase01.stPublico);
+		System.out.println("CLASS: "+Clase01.stPublico); 
+				
+		Date date2 = new Date();
+		System.out.println("EQUALS:"+date1.equals(date2));
+		System.out.println("Before:"+date1.before(date2));
+		System.out.println("After:"+date1.after(date2));
 		
 
 	}
