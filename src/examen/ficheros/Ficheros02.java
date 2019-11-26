@@ -1,4 +1,4 @@
-package ficheros;
+package examen.ficheros;
 
 import java.io.EOFException;
 import java.io.File;
@@ -9,7 +9,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.StreamCorruptedException;
 
-import ficheros.datos.Persona;
+import examen.ficheros.datos.Persona;
 
 /**
  * Lectura y escritura de ficheros planos

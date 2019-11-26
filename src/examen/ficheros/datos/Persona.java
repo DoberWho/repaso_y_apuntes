@@ -1,4 +1,4 @@
-package ficheros.datos;
+package examen.ficheros.datos;
 
 import java.io.Serializable;
 

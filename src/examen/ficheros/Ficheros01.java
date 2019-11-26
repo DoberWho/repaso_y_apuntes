@@ -1,4 +1,4 @@
-package ficheros;
+package examen.ficheros;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
