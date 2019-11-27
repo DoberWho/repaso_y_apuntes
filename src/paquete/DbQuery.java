@@ -64,6 +64,7 @@ public class DbQuery {
 	public ResultSet ejecutarYDevolver(String sql) throws SQLException {
 
 		Statement statemnt = this.conn.createStatement();
+		
 		ResultSet res = statemnt.executeQuery(sql);
 
 		return res;
