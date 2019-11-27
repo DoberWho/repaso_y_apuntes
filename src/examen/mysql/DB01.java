@@ -95,4 +95,9 @@ public class DB01 {
 	 * .- Necesitamos recoger cada uno de los campos da la base de datos con getInt, getString, etc. 
 	 * y generar la instancia del objeto Categoria
 	 */
+	
+	/**
+	 * 5.- En esta consulta; que es lo falla:
+	 * - 
+	 */
 }
